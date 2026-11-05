@@ -8,8 +8,8 @@ from sklearn.tree import DecisionTreeRegressor
 from sklearn.model_selection import GridSearchCV
 from sklearn import metrics
 
-train = pd.read_csv(r"C:\Users\Johnnel\Desktop\TIP folder\1st year 2nd sem\applied machine learning\to do\D10\archive\train_energy_data.csv")
-test = pd.read_csv(r"C:\Users\Johnnel\Desktop\TIP folder\1st year 2nd sem\applied machine learning\to do\D10\archive\test_energy_data.csv")
+train = pd.read_csv(r"archive\train_energy_data.csv")
+test = pd.read_csv(r"archive\test_energy_data.csv")
 
 X_train = train.drop(columns="Energy Consumption")
 y_train = train["Energy Consumption"]
