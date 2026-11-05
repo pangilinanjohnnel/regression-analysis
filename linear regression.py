@@ -5,7 +5,7 @@ from sklearn.linear_model import LinearRegression
 from sklearn.metrics import mean_squared_error
 import statsmodels.api as sm
 
-df = pd.read_csv(r"C:\Users\Johnnel\Desktop\TIP folder\1st year 2nd sem\applied machine learning\to do\ex 2\Exam score prediction\Exam_Score_Prediction.csv")
+df = pd.read_csv(r"archieve\Exam_Score_Prediction.csv")
 
 #Correlation Analysis (Choose Highest)
 numeric_df = df.select_dtypes(include=np.number)
