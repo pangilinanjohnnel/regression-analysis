@@ -8,7 +8,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 
 
-df=pd.read_csv(r"C:\Users\Johnnel\Desktop\TIP folder\free data\World Stock Prices ( Daily Updating )\archive\World-Stock-Prices-Dataset.csv")
+df=pd.read_csv(r"archive\World-Stock-Prices-Dataset.csv")
 df=df[df["Brand_Name"]=="apple"]
 
 #fix
