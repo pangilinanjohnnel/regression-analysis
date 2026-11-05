@@ -7,7 +7,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 from sklearn.preprocessing import PolynomialFeatures
 
-df=pd.read_csv(r"C:\Users\Johnnel\Desktop\TIP folder\1st year 2nd sem\applied machine learning\A2\metro+interstate+traffic+volume\Metro_Interstate_Traffic_Volume.csv\Metro_Interstate_Traffic_Volume.csv")
+df=pd.read_csv(r"archieve\Metro_Interstate_Traffic_Volume.csv\Metro_Interstate_Traffic_Volume.csv")
 
 df["date_time"] = pd.to_datetime(df["date_time"], utc=True)
 df["hour"] = df["date_time"].dt.hour
